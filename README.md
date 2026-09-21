@@ -159,7 +159,7 @@ When building an argument or a working hypothesis, it should be standard methodo
 
 - **Defense**: General multilingual alignment scales by patching the most obvious vulnerabilities, typically by fine-tuning models on synthetic, machine-translated safety data. While this approach eventually closes the gap for formal, predictable translations, it leaves the actual attack surface wide open. During pre-training, models ingest billions of tokens of raw Romanian web data, absorbing its massive orthographic entropy—missing diacritics, broken standard encodings, and other issues already mentioned. That is why these models are so good at understanding the actual message that is conveyed, but the safety filters, defenses, guardrails, and benchmarking are so far behind. Generalized alignment cannot close this gap because it tests the model in a sterile vacuum. A specialized dataset is strictly necessary to target the native linguistic entropy—morphological fusion, structural ambiguity, and ludic slang—where real-world adversarial instructions actually happen/operate.
 
-### Conclusion: The asymmetry of alignment
+## Conclusion: The asymmetry of alignment
 AI models have ingested massive volumes of informal, unstructured public data—including social media and web forums—to achieve conversational fluency. This broad data scraping guarantees that models perfectly understand native slang, morphological fusions, and colloquial profanity. 
 
 However, this creates a more specific problem (security-related). While (pre-)training relies on wild, unconstrained internet data, safety alignment relies on sanitized, corporate-mandated rubrics that overwhelmingly prioritize English-centric, formal structures or try to align their meaning to the English instructions.
@@ -167,8 +167,7 @@ However, this creates a more specific problem (security-related). While (pre-)tr
 Models possess the native linguistic capability to understand complex adversarial entropy, but their safety firewalls could be improved upon. Securing these models requires targeted datasets that reflect the unstructured reality of the internet. By mapping the linguistic variance of Romanian, this dataset should provide a practical, modular foundation to test and build robust LLM guardrails that align with real-world application security. Will bouncing this against various models and analyzing the results lead to new discoveries and potential improvement areas? Could definitely be the case!
 
 
-## Proprietary Rights & Copyright
-
-**© 2026 Ioana-Alexandra Petrache / Angew. KI-Forschung, All Rights Reserved.**
-
-This document, including its specific technical and linguistic methodologies, security framing, mechanical approach, and/or dataset structure, is the exclusive intellectual property of the author.
+## License and community use
+This methodology and approach were developed by the author to advance the field of LLM guardrails and AI safety. To encourage community collaboration:
+- This methodology and documentation are licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
+- All future code and dataset artifacts will be licensed under the MIT License (added to the repository).
