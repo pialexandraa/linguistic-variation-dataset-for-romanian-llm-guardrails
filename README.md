@@ -28,6 +28,13 @@ To establish the scale of this linguistic integration, the following table maps 
 | **CoRoLa** | 1.25B tokens (POS-tagged/lemmatized) + 152 hours transcribed speech | Romanian Academy official reference corpus |
 | **OPUS/OpenSubtitles & EU Legal Corpora** | Significant volume (Europarl/JRC-Acquis) | Various dataset aggregators |
 
+### References (links and citations)
+
+1. **mC4:** Xue et al. (2020), "mT5: A Massively Multilingual Pre-trained Text-to-Text Transformer." [Paper](https://arxiv.org/abs/2010.11934) | [Hugging Face Dataset](https://huggingface.co/datasets/allenai/c4).
+2. **CulturaX:** Nguyen et al. (2023), "CulturaX: A Cleaned, Enormous, and Multilingual Dataset." [Paper](https://arxiv.org/abs/2309.09400) | [Hugging Face Dataset](https://huggingface.co/datasets/uonlp/CulturaX).
+3. **CC-100:** Conneau et al. (2019), "Unsupervised Cross-lingual Representation Learning at Scale." [Data Repository](http://data.statmt.org/cc-100/).
+4. **CoRoLa:** Barbu Mititelu et al. (2018). The Reference Corpus of Contemporary Romanian Language. [Paper](https://aclanthology.org/L18-1189.pdf) | [Corpus Portal](http://korap.racai.ro/).
+5. **dexonline:** Live dictionary statistics. [Homepage](https://dexonline.ro/).
 
 This massive ingestion creates a critical asymmetry in modern AI security:
 **While model pre-training is highly multilingual (spanning tens of billions of Romanian tokens), safety alignment (RLHF, DPO, and red-teaming datasets) is overwhelmingly weighted toward English.**
