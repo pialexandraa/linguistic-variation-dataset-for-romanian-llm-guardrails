@@ -34,7 +34,7 @@ To establish the scale of this linguistic integration, the following table maps 
 2. **CulturaX:** Nguyen et al. (2023), "CulturaX: A Cleaned, Enormous, and Multilingual Dataset." [Paper](https://arxiv.org/abs/2309.09400) | [Hugging Face Dataset](https://huggingface.co/datasets/uonlp/CulturaX).
 3. **CC-100:** Conneau et al. (2019), "Unsupervised Cross-lingual Representation Learning at Scale." [Data Repository](http://data.statmt.org/cc-100/).
 4. **CoRoLa:** Barbu Mititelu et al. (2018). The Reference Corpus of Contemporary Romanian Language. [Paper](https://aclanthology.org/L18-1189.pdf) | [Corpus Portal](http://korap.racai.ro/).
-5. **dexonline:** Live dictionary statistics. [Homepage](https://dexonline.ro/).
+5. **dexonline:** Live dictionary - massive usage and adoption. [Homepage](https://dexonline.ro/) citing: _"Retrieval, storage or use of data from this site, including through any automated extraction methods (web scraping, crawling), is strictly prohibited without our prior written consent, except for datasets officially offered for public use (see license)._" (translated from Romanian).
 
 This massive ingestion creates a critical asymmetry in modern AI security:
 **While model pre-training is highly multilingual (spanning tens of billions of Romanian tokens), safety alignment (RLHF, DPO, and red-teaming datasets) is overwhelmingly weighted toward English.**
